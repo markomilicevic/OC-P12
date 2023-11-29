@@ -154,7 +154,7 @@ const model = {
 				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP 36076, niveau 5 / BAC+2)",
 			skills: [
 				{
-					name: "Autonomy: Learn in remote and share knowledge with the students",
+					name: "Autonomy: Learn and demonstrate then share knowledge",
 				},
 			],
 		},
@@ -165,14 +165,14 @@ const model = {
 				"Contributions for introducing unit testing culture.\nTesting sessions organized across the feature teams.\nMain application refactored from AngularJS to ReactJS in a tunnel of 1 year.",
 			skills: [
 				{
-					name: "Anticipations: DevOps culture, pro-active monitoring and performances improvements",
+					name: "Anticipations: Pro-active monitoring and performances improvements",
 				},
 			],
 		},
 		{
 			name: "2012 - 2017 — Web Developer",
 			organization: "Viadeo, professional social network",
-			description: "Introduced to feature teams in Agile methodology.\nMain web site refactored from JAVA/JSP to AWS / Node.JS / BackboneJS",
+			description: "Introduced to large products and to the automated testing.\nMain web site refactored from JAVA/JSP to AWS / Node.JS / BackboneJS",
 			skills: [
 				{
 					name: "Adaptability: Work in feature teams using the Agile methodology",
