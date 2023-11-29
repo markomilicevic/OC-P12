@@ -148,10 +148,10 @@ const model = {
 	],
 	experiences: [
 		{
-			name: "2023 — Web Integrator (Study)",
+			name: "2023 — Student as Web Integrator",
 			organization: "OpenClassrooms, academy of Paris",
 			description:
-				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP niveau 5 / BAC+2)",
+				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP 36076, niveau 5 / BAC+2)",
 			skills: [
 				{
 					name: "Autonomy: Learn in remote and share knowledge with the students",
