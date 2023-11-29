@@ -91,7 +91,7 @@ const model = {
 			previewImageURL: "/images/OC-P4-small.png",
 			fullSizeImageURL: "/images/OC-P4.png",
 			name: "P4 exercise of the Web Integrator course at OpenClassrooms",
-			description: "Integration of an FoodTech website including fancy animations & transitions",
+			description: "Integration of an FoodTech website, including fancy animations",
 			skills: [
 				{
 					name: "Animations",
@@ -105,9 +105,6 @@ const model = {
 				{
 					name: "Pixel-Perfect",
 				},
-				{
-					name: "Transitions",
-				},
 			],
 			siteURL: "https://markomilicevic.github.io/OC-P4/",
 		},
@@ -115,7 +112,7 @@ const model = {
 			previewImageURL: "/images/OC-P6-small.png",
 			fullSizeImageURL: "/images/OC-P6.png",
 			name: "P6 exercise of the Web Integrator course at OpenClassrooms",
-			description: "Admin developed for a photograph using JWT authentification and file upload",
+			description: "Admin developed for a photograph website, using JWT authentification and file upload",
 			skills: [
 				{
 					name: "Admin",
@@ -134,7 +131,7 @@ const model = {
 			previewImageURL: "/images/OC-P11-small.png",
 			fullSizeImageURL: "/images/OC-P11.png",
 			name: "P11 exercise of the Web Integrator course at OpenClassrooms",
-			description: "ReactJS application developed for a bank company using JWT authentification and Redux",
+			description: "ReactJS application developed for a bank, using JWT authentification and Redux",
 			skills: [
 				{
 					name: "JavaScript",
