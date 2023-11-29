@@ -1,5 +1,6 @@
 import Nav from "../../components/Nav";
 import Skills from "../../components/Skills";
+import Projects from "../../components/Projects";
 import model from "../../model.js";
 import styles from "./Home.module.scss";
 
@@ -24,6 +25,13 @@ const Home = () => {
 
 				<p>My values are:</p>
 				<Skills list={model.softSkills} />
+			</section>
+
+			<section id="portfolio" className={`${styles.section} ${styles.portfolio}`}>
+				<h2>Portfolio</h2>
+
+				<p>Recent projects — Click to expand:</p>
+				<Projects list={model.projects} />
 			</section>
 		</div>
 	);

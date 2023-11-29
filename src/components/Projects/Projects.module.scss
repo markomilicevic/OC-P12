@@ -1,0 +1,17 @@
+@use "../../layouts/Page/variables.scss" as *;
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+
+		> :first-child {
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}		
+	}
+}
