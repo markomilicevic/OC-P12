@@ -1,0 +1,56 @@
+@use "../../layouts/Page/variables.scss" as *;
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+	gap: 5px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		padding-left: 80px;
+	}
+}
+
+.experience:before {
+	display: none;
+	content: " ";
+	background-color: #666;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: relative;
+	left: -90px;
+	top: 30px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		display: block;
+	}
+}
+
+.experience h3 {
+	font-size: 24px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		font-size: 28px;
+	}
+}
+
+.experience h4 {
+	font-size: 22px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		font-size: 24px;
+	}
+}
+
+.description span {
+	display: block;
+	font-size: 18px;
+}
+
+
+.skills ul {
+	justify-content: flex-start;
+	margin-top: 10px;
+	margin-left: 0 !important;
+}

@@ -24,5 +24,6 @@ describe("Home page", () => {
 		expect(document.getElementById("introduction")).toBeTruthy();
 		expect(document.getElementById("skills")).toBeTruthy();
 		expect(document.getElementById("portfolio")).toBeTruthy();
+		expect(document.getElementById("experiences")).toBeTruthy();
 	});
 });

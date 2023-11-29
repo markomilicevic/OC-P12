@@ -1,6 +1,7 @@
 import Nav from "../../components/Nav";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
+import Experiences from "../../components/Experiences";
 import model from "../../model.js";
 import styles from "./Home.module.scss";
 
@@ -32,6 +33,13 @@ const Home = () => {
 
 				<p>Recent projects — Click to expand:</p>
 				<Projects list={model.projects} />
+			</section>
+
+			<section id="experiences" className={`${styles.section} ${styles.experiences}`}>
+				<h2>Experiences</h2>
+
+				<p>From the most recent to oldest:</p>
+				<Experiences list={model.experiences} />
 			</section>
 		</div>
 	);

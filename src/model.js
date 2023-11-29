@@ -146,6 +146,51 @@ const model = {
 			siteURL: "https://github.com/markomilicevic/OC-P11",
 		},
 	],
+	experiences: [
+		{
+			name: "2023 — Web Integrator (Study)",
+			organization: "OpenClassrooms, academy of Paris",
+			description:
+				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP niveau 5 / BAC+2)",
+			skills: [
+				{
+					name: "Autonomy",
+				},
+			],
+		},
+		{
+			name: "2017 - 2023 — Senior Software Developer",
+			organization: "Aircall, telephony solutions",
+			description:
+				"Contributions for introducing unit testing culture.\nTesting sessions organized across the feature teams.\nMain application refactored from AngularJS to ReactJS in a tunnel of 1 year.",
+			skills: [
+				{
+					name: "Anticipations",
+				},
+			],
+		},
+		{
+			name: "2012 - 2017 — Web Developer",
+			organization: "Viadeo, professional social network",
+			description: "Introduced to feature teams in Agile methodology.\nMain web site refactored from JAVA/JSP to AWS / Node.JS / BackboneJS",
+			skills: [
+				{
+					name: "Adaptability",
+				},
+			],
+		},
+		{
+			name: "2007 - 2012 — Junior Web Developer",
+			organization: "Kewego, online videos hosting / streaming",
+			description:
+				"Applyed technical requests from customers for advertising and customizations.\nSeveral (10+) Single-Sign-On developed to connect with the customers.",
+			skills: [
+				{
+					name: "Team Spirit",
+				},
+			],
+		},
+	],
 };
 
 export default model;
