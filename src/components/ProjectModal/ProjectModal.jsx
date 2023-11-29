@@ -41,18 +41,9 @@ const ProjectModal = ({ project }) => {
 						</a>
 					</div>
 				</div>
-				<a
-					data-testid="close-modal-icon"
-					href="/"
-					className={styles.modalClose}
-					title="Close"
-					onClick={(event) => {
-						event.preventDefault();
-						closeModal();
-					}}
-				>
+				<button data-testid="close-modal-icon" className={styles.modalClose} title="Close" onClick={() => closeModal()}>
 					✖
-				</a>
+				</button>
 			</div>
 		</div>
 	);
