@@ -2,8 +2,10 @@ import Nav from "../../components/Nav";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
 import Experiences from "../../components/Experiences";
-import model from "../../model.js";
+import CTA from "../../components/CTA";
 import styles from "./Home.module.scss";
+import model from "../../model.js";
+import external from "./external.svg";
 
 const Home = () => {
 	return (
@@ -40,6 +42,16 @@ const Home = () => {
 
 				<p>From the most recent to oldest:</p>
 				<Experiences list={model.experiences} />
+			</section>
+
+			<section id="contact" className={`${styles.section} ${styles.contact}`}>
+				<h2>Contact</h2>
+
+				<div>
+					<p>Have questions? Want to exchange?</p>
+					<CTA href={model.contactURL}>Meet me on LinkedIn&nbsp;&nbsp;&nbsp;<img src={external} alt="External link" width="20" /></CTA>
+					<p>I will be happy to answer to your request under 72 hours (Paris timezone)</p>
+				</div>
 			</section>
 		</div>
 	);

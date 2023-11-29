@@ -191,6 +191,7 @@ const model = {
 			],
 		},
 	],
+	contactURL: "https://linkedin.com/in/marko-m-12549c97",
 };
 
 export default model;
