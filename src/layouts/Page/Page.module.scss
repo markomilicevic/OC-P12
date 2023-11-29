@@ -1,0 +1,45 @@
+@use "./variables.scss" as *;
+
+// Fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap");
+
+// Reset
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+ul {
+	list-style-type: none;
+}
+
+strong {
+	font-weight: 400;
+}
+
+// Global
+
+body {
+	background-image: linear-gradient(45deg, #eee 15%, #bbb 85%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main {
+	background-color: white;
+	min-width: $min-breakpoint-width;
+	border-radius: 5px;
+	padding-bottom: 60px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		width: $desktop-breakpoint-width;
+	}
+}

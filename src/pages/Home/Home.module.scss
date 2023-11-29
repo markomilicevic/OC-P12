@@ -1,0 +1,75 @@
+@use "../../layouts/Page/variables.scss" as *;
+
+.section {
+	padding: 20px 30px 0px 30px;
+	font-size: 30px;
+	color: black;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		padding: 30px 60px 0px 60px;
+	}
+}
+
+.section h2 {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		font-size: 40px;
+	}
+}
+
+.section h2:after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 1px;
+	margin-top: 5px;
+	background-image: linear-gradient(90deg, #fff, #000);
+	opacity: 0.5;
+}
+
+.introduction p {
+	font-size: 20px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		padding: 0px 100px 0px 100px;
+		text-align: center;
+	}
+}
+
+.skills p {
+	font-size: 20px;
+}
+
+.skills ul {
+	padding: 20px 0px 20px 0;
+}
+
+.portfolio p {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.experiences p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.experiences ul {
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		margin-left: 30px;
+	}
+}
+
+.contact div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact p {
+	font-size: 20px;
+}

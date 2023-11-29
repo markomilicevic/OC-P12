@@ -1,0 +1,7 @@
+@use "../../layouts/Page/variables.scss" as *;
+
+.experiences {
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		border-left: 5px solid #ddd;
+	}
+}

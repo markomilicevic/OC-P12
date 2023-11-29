@@ -1,0 +1,18 @@
+.skill::before {
+	content: "•";
+	padding-right: 10px;
+}
+
+.skill {
+	background-color: #eee;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	color: black;
+	font-size: 18px;
+}
+
+.important {
+	background-image: linear-gradient(45deg, #666 15%, #222 85%);
+	color: white;
+	font-weight: 400;
+}

@@ -1,0 +1,35 @@
+@use "../../layouts/Page/variables.scss" as *;
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px 30px 30px 30px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		padding: 60px 0 60px 0;
+	}
+}
+
+.header img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.header h1 {
+	padding-top: 20px;
+	font-size: 40px;
+
+	@media screen and (min-width: $desktop-breakpoint-width) {
+		padding-top: 40px;
+		font-size: 50px;
+	}
+}
+
+.header p {
+	font-size: 20px;
+}
