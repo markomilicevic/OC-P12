@@ -39,3 +39,9 @@ Run end-to-end tests:
 `yarn start`
 
 A browser will automatically be opened at localhost
+
+### Deploy
+
+`yarn build && firebase deploy`
+
+[Firebase Hosting](https://firebase.google.com/docs/hosting) will be used to deploy the statics online

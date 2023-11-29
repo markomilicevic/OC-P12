@@ -7,17 +7,8 @@ const Project = ({ project }) => {
 	const { showModal } = useContext(ModalContext);
 
 	return (
-		<li className={styles.project}>
-			<a
-				href="/"
-				onClick={(event) => {
-					event.preventDefault();
-					showModal(project);
-				}}
-				data-testid="project-link"
-			>
-				<img src={project.previewImageURL} alt={project.name} />
-			</a>
+		<li className={styles.project} onClick={(event) => showModal(project)} data-testid="project-link">
+			<img src={project.previewImageURL} alt={project.name} />
 		</li>
 	);
 };

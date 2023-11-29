@@ -91,7 +91,7 @@ const model = {
 			previewImageURL: "/images/OC-P4-small.png",
 			fullSizeImageURL: "/images/OC-P4.png",
 			name: "P4 exercise of the Web Integrator course at OpenClassrooms",
-			description: "Integration of an FoodTech website including fancy animations & transitions",
+			description: "Integration of an FoodTech website, including fancy animations",
 			skills: [
 				{
 					name: "Animations",
@@ -105,9 +105,6 @@ const model = {
 				{
 					name: "Pixel-Perfect",
 				},
-				{
-					name: "Transitions",
-				},
 			],
 			siteURL: "https://markomilicevic.github.io/OC-P4/",
 		},
@@ -115,7 +112,7 @@ const model = {
 			previewImageURL: "/images/OC-P6-small.png",
 			fullSizeImageURL: "/images/OC-P6.png",
 			name: "P6 exercise of the Web Integrator course at OpenClassrooms",
-			description: "Admin developed for a photograph using JWT authentification and file upload",
+			description: "Admin developed for a photograph website, using JWT authentification and file upload",
 			skills: [
 				{
 					name: "Admin",
@@ -134,7 +131,7 @@ const model = {
 			previewImageURL: "/images/OC-P11-small.png",
 			fullSizeImageURL: "/images/OC-P11.png",
 			name: "P11 exercise of the Web Integrator course at OpenClassrooms",
-			description: "ReactJS application developed for a bank company using JWT authentification and Redux",
+			description: "ReactJS application developed for a bank, using JWT authentification and Redux",
 			skills: [
 				{
 					name: "JavaScript",
@@ -148,13 +145,13 @@ const model = {
 	],
 	experiences: [
 		{
-			name: "2023 — Web Integrator (Study)",
+			name: "2023 — Student as Web Integrator",
 			organization: "OpenClassrooms, academy of Paris",
 			description:
-				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP niveau 5 / BAC+2)",
+				"Best practices consolidated about HTML5, CSS3, JavaScript and ReactJS.\nWeb Integrator certification in progress (Titre RNCP 36076, niveau 5 / BAC+2)",
 			skills: [
 				{
-					name: "Autonomy",
+					name: "Autonomy: Learning and demonstrating then sharing knowledge",
 				},
 			],
 		},
@@ -165,17 +162,17 @@ const model = {
 				"Contributions for introducing unit testing culture.\nTesting sessions organized across the feature teams.\nMain application refactored from AngularJS to ReactJS in a tunnel of 1 year.",
 			skills: [
 				{
-					name: "Anticipations",
+					name: "Anticipations: Pro-active monitoring and improving performances",
 				},
 			],
 		},
 		{
 			name: "2012 - 2017 — Web Developer",
 			organization: "Viadeo, professional social network",
-			description: "Introduced to feature teams in Agile methodology.\nMain web site refactored from JAVA/JSP to AWS / Node.JS / BackboneJS",
+			description: "Introduced to large products and to the automated testing.\nMain web site refactored from JAVA/JSP to AWS / Node.JS / BackboneJS",
 			skills: [
 				{
-					name: "Adaptability",
+					name: "Adaptability: Organizing in feature teams using the Agile methodology",
 				},
 			],
 		},
@@ -186,7 +183,7 @@ const model = {
 				"Applyed technical requests from customers for advertising and customizations.\nSeveral (10+) Single-Sign-On developed to connect with the customers.",
 			skills: [
 				{
-					name: "Team Spirit",
+					name: "Team Spirit: Sharing objectives and growing with teammates",
 				},
 			],
 		},

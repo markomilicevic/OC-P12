@@ -49,8 +49,8 @@ const Home = () => {
 
 				<div>
 					<p>Have questions? Want to exchange?</p>
-					<CTA href={model.contactURL}>Meet me on LinkedIn&nbsp;&nbsp;&nbsp;<img src={external} alt="External link" width="20" /></CTA>
-					<p>I will be happy to answer to your request under 72 hours (Paris timezone)</p>
+					<CTA href={model.contactURL}>Meet me on LinkedIn&nbsp;&nbsp;&nbsp;<img src={external} alt="External link" width="20" height="20" /></CTA>
+					<p>I will be happy to answer to your request under 72 hours (Paris Timezone)</p>
 				</div>
 			</section>
 		</div>
