@@ -13,5 +13,6 @@ describe("Home page", () => {
 		render(<Home />);
 
 		expect(document.getElementById("introduction")).toBeTruthy();
+		expect(document.getElementById("skills")).toBeTruthy();
 	});
 });
