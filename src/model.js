@@ -86,6 +86,7 @@ const model = {
 				},
 			],
 			siteURL: "https://aircall.io/",
+			siteType: "live",
 		},
 		{
 			previewImageURL: "/images/OC-P4-small.png",
@@ -107,6 +108,7 @@ const model = {
 				},
 			],
 			siteURL: "https://markomilicevic.github.io/OC-P4/",
+			siteType: "live",
 		},
 		{
 			previewImageURL: "/images/OC-P6-small.png",
@@ -126,6 +128,7 @@ const model = {
 				{ name: "HTML5" },
 			],
 			siteURL: "https://github.com/markomilicevic/OC-P6/tree/master/FrontEnd",
+			siteType: "code",
 		},
 		{
 			previewImageURL: "/images/OC-P11-small.png",
@@ -141,6 +144,7 @@ const model = {
 				{ name: "Redux" },
 			],
 			siteURL: "https://github.com/markomilicevic/OC-P11",
+			siteType: "code",
 		},
 	],
 	experiences: [
