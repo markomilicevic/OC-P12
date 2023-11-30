@@ -106,7 +106,6 @@
 
 	@media screen and (min-width: $desktop-breakpoint-width) {
 		display: flex;
-		height: 45px;
 	}
 }
 
@@ -116,7 +115,7 @@
 	text-decoration: underline;
 
 	@media screen and (min-width: $desktop-breakpoint-width) {
-		font-size: 20px;
+		text-decoration: none;
 	}
 }
 

@@ -36,8 +36,8 @@ const ProjectModal = ({ project }) => {
 					</div>
 					<div className={styles.modalContentSecondary}>
 						<a href={project.siteURL} target="_blank" rel="noreferrer">
-							<img src={external} alt="External link" />
-							<strong>See live</strong>
+							<img src={external} alt="External link" width="45" height="45" />
+							<strong>{project.siteType === 'live' ? 'See demo' : 'See code'}</strong>
 						</a>
 					</div>
 				</div>
